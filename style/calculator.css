@@ -1,0 +1,12 @@
+body {
+  font-family: arial;
+  font-size: 13px;
+  background-color: hsl(172, 67%, 45%);
+}
+div.main-cnt {
+  width: 700px;
+  height: 500px;
+  margin: 100px 0px 0px 100px;
+  background-color: white;
+  border-radius: 20px;
+}
