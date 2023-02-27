@@ -9,10 +9,13 @@ div.main-cnt {
   margin: 100px 0px 0px 100px;
   background-color: white;
   border-radius: 20px;
+  display: flex;
+  flex-direction: row;
 }
 div.bill-cnt {
   margin-left: 40px;
   border: 1px solid red;
+  width: 260px;
   height: 130px;
 }
 p.bill {
@@ -24,27 +27,30 @@ p.bill {
 div.amount-cnt {
   display: flex;
   flex-direction: row;
-  width: 250px;
+  width: 260px;
   height: 35px;
   border-radius: 8px;
   background-color: hsl(185, 41%, 84%);
 }
-p.dollar {
-  font-size: 16px;
-  font-weight: bold;
-  margin-left: 20px;
+img.dollar {
+  width: 15px;
+  height: 20px;
   margin-top: 10px;
-  color: hsl(186, 14%, 43%);
+  margin-left: 10px;
 }
 p.amnt {
-  margin-left: 190px;
-  font-size: 16px;
+  margin-left: 200px;
+  font-size: 18px;
   font-weight: bold;
   margin-top: 10px;
   color: hsl(186, 14%, 43%);
 }
 div.select-cnt {
   margin-left: 40px;
+}
+p.select {
+  font-weight: bold;
+  color: hsl(186, 14%, 43%);
 }
 div.pcntg-cnt {
   display: flex;
@@ -87,4 +93,51 @@ div.bttm-cnt > div:nth-child(3) {
   border-radius: 5px;
   color: hsl(186, 14%, 43%);
   background-color: hsl(185, 41%, 84%);
+}
+div.ppl-cnt {
+  display: flex;
+  flex-direction: row;
+  width: 260px;
+  height: 35px;
+  border-radius: 8px;
+  background-color: hsl(185, 41%, 84%);
+}
+p.people {
+  font-weight: bold;
+  color: hsl(186, 14%, 43%);
+}
+.ppl-logo {
+  width: 15px;
+  height: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+div.side-cnt {
+  margin-left: 30px;
+  margin-top: 20px;
+  width: 300px;
+  height: 400px;
+  border: 1px solid green;
+  border-radius: 10px;
+  background-color: hsl(182, 89%, 11%);
+}
+div.tip-cnt {
+  margin-top: 20px;
+  border: 1px solid white;
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+}
+p.tip {
+  color: white;
+  font-size: 16px;
+}
+d {
+  color: grey;
+  font-size: 13px;
+}
+div.tip-cnt,
+div.total-cnt > p:nth-child(3) {
+  width: 50px;
+  height: 30px;
 }
