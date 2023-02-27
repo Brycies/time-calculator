@@ -1,6 +1,6 @@
 body {
   font-family: arial;
-  font-size: 13px;
+  font-size: 16px;
   background-color: hsl(172, 67%, 45%);
 }
 div.main-cnt {
@@ -9,4 +9,82 @@ div.main-cnt {
   margin: 100px 0px 0px 100px;
   background-color: white;
   border-radius: 20px;
+}
+div.bill-cnt {
+  margin-left: 40px;
+  border: 1px solid red;
+  height: 130px;
+}
+p.bill {
+  margin-top: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  color: hsl(186, 14%, 43%);
+}
+div.amount-cnt {
+  display: flex;
+  flex-direction: row;
+  width: 250px;
+  height: 35px;
+  border-radius: 8px;
+  background-color: hsl(185, 41%, 84%);
+}
+p.dollar {
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-top: 10px;
+  color: hsl(186, 14%, 43%);
+}
+p.amnt {
+  margin-left: 190px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: hsl(186, 14%, 43%);
+}
+div.select-cnt {
+  margin-left: 40px;
+}
+div.pcntg-cnt {
+  display: flex;
+  flex-direction: column;
+}
+div.top-cnt {
+  display: flex;
+  flex-direction: row;
+}
+div.top-cnt > div {
+  width: 80px;
+  height: 30px;
+  margin-right: 10px;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: hsl(182, 89%, 11%);
+}
+div.bttm-cnt {
+  display: flex;
+  flex-direction: row;
+}
+div.bttm-cnt > div {
+  width: 80px;
+  height: 30px;
+  margin-right: 10px;
+  margin-top: 20px;
+  text-align: center;
+  padding-top: 10px;
+  color: white;
+  border-radius: 5px;
+  background-color: hsl(182, 89%, 11%);
+}
+div.bttm-cnt > div:nth-child(3) {
+  width: 80px;
+  height: 30px;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 5px;
+  color: hsl(186, 14%, 43%);
+  background-color: hsl(185, 41%, 84%);
 }
